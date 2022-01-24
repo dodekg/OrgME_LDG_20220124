@@ -1,0 +1,257 @@
+/*--BODY--*/
+body{
+    background-color: white;
+}
+
+/*--NAVBAR--*/
+
+.navbgGreen{
+    /*background-color: rgb(77, 179, 52);*/
+    background: linear-gradient(to right, rgb(166, 214, 53), rgb(35, 105, 28), rgb(35, 105, 28), rgb(35, 105, 28));
+    /*background: linear-gradient(to right, rgba(149, 211, 5, 0.75), rgba(10, 99, 2, 0.75), rgba(10, 99, 2, 0.75), rgba(10, 99, 2, 0.75));*/
+	/* does not work because toggler menu disappears:   max-height:20%; */
+}
+
+.nav-link{
+    color:#082516;
+    font-weight:700;
+}
+
+.nav-link:hover{
+    color:rgb(100, 241, 18); /* or white? */
+}
+
+
+li{
+	margin-right:20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+/*--CONTENT--*/
+/*--middle--*/
+
+/*--carousel first section--*/
+
+/* I dont know whats that for but meaningless? 
+section{ */
+    /*height:250px;margin-top?*/
+	/*margin-bottom:1%;*/
+    /*background-color:white;*/
+    /*margin-bottom:2%;  ----------co z tym?  jak zlikwidowac przestrzen miedzy Lorem ipsum h1-2 a zielonymi falami?*/
+/*}*/
+
+section{ /*here it was carousel before but section = carousel*/
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1%;
+}
+
+.contentSize{
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1%;           /* -------------zrob cos z tym na mniejszym ekranie chowa sie za menu --> media-breakpoint?*/
+}
+
+
+.btn-green{
+	background-color:rgb(35, 105, 28);
+	color:white;
+}
+/*--second section header,paragraph,images(links)--*/
+
+.img-bor{
+    max-width:100%;
+	border:5px solid green;
+}
+
+/*hover efect for img (events&act)*/
+
+.img-stiff:hover{
+	opacity:50%;
+}
+
+/* events&activities => setting stiff height */
+.img-stiff{
+	height:50px;
+}
+
+
+.img-small{
+	max-width:120px;
+	max-height:120px;
+	min-width:120px;
+	min-height:120px;
+	border:5px solid green;
+	margin:5px;
+}
+
+/*there is some inconsistencies with classes container1234 but hard to fix (mind for later)*/
+.container{
+    background-color: rgb(100, 241, 18);
+	min-width:100%;
+	padding-top:30px;
+	text-align:center;
+}
+
+.blurImg:hover{
+	opacity:0.5;
+}
+
+.container2{
+	text-align:left;
+}
+
+.container3{
+	text-align:right;	
+}
+
+.container4{
+	text-align:left;
+}
+
+main{
+	
+	background-image: url("images/textures/more-leaves_Toptal.png");
+	margin-bottom: 1%;
+
+}
+
+h1{
+	color:#082516;
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+
+p{
+	color:#082516;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size: 20px;
+}
+
+/*gardening page there is a gap between container1 and 2*/
+#getRidOfSpace{
+	margin-bottom:0px;
+}
+
+/*gardeing extra img*/
+#starImg{
+	width:70%;
+}
+
+#biggerMar{
+	margin-bottom:50px;
+}
+
+#textToLeft{
+	text-align:left;
+}
+
+/*used in contact form to move checkbox description*/
+.toTheLeft{
+	text-align:left;
+	
+}
+
+/*used in cafe menu to make responsive border*/
+.toTheLeftPos{
+	text-align:left;
+	position:absolute;
+}
+.maxW{
+	max-width:100px;
+	display:block;
+}
+/*used in cafe menu to make responsive border*/
+.toTheRightPos{
+	text-align:right;
+	position:relative;
+
+}
+
+hr{
+	border:solid green 5px;
+}
+
+/* it was thiner but does not fit overall style - I doubt if I use this class anywhere at the moment*/
+.dashedMagic{
+	border-bottom:dashed black 1px;
+}
+
+.linkColor{
+	text-decoration:none;
+	color:#082516;
+	font-size:24px;
+}
+
+#smFont{
+	font-size:16px;
+	margin-bottom:10px;
+}
+ /*colouring accordion*/
+.accorCol{
+	 /*background-color:#082516!important;*/
+	 color:white;
+	 background-color:green!important;
+ }
+
+/*Gardening page - adding some live effect when hovered*/
+.hoverVisib{
+	display:block;
+	/*display:none;*/
+}
+
+/*above & below - does not work yet*/
+
+img.hoverVisib:hover{
+	display:block;
+	opacity:0.5;
+}
+/*----------------------------*/
+
+/* Footer */
+footer{
+	max-width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	padding:20px;
+
+	
+}
+
+
+.footbgGreen{
+	background-color:rgb(35, 105, 28);
+	color:#082516;
+	/*font-size:28px;*/
+}
+
+.smallText{
+
+	font-size:12px;
+}
+
+.icoModif{
+	color:#082516;
+	/*border:solid black 1px;
+	border-radius:50%;*/
+	padding:5px;
+	margin:3px;
+	height:20px;
+}
+
+.icoModif:hover{
+	color:rgb(100, 241, 18);
+	/*border:solid rgb(100, 241, 18) 1px;
+	border-radius:50%;*/
+	padding:5px;
+	margin:3px;
+}
+
+.noUnderL{
+	text-decoration:none;
+}
+
