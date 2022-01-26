@@ -27,6 +27,9 @@ li{
 	font-family: 'Noto Sans', sans-serif;
 }
 
+.active{
+	color:rgb(100, 241, 18);
+}
 
 /*--CONTENT--*/
 /*--middle--*/
@@ -139,7 +142,17 @@ p{
 
 /*gardeing extra img*/
 #starImg{
-	width:70%;
+	width:100%;
+}
+
+/*rounded image at cafe.html*/
+.imgRad{
+	border-radius:100%;
+}
+
+/*experimenting with image over button on cafe.html*/
+.whatSize{
+	width:100%;
 }
 
 #biggerMar{
